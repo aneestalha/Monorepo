@@ -5,6 +5,10 @@ zypper refresh
 zypper install bazel
 
 
+To download the packages -
+
+https://download.opensuse.org/repositories/openSUSE:/Leap:/15.2/standard/x86_64/bazel-2.0-lp152.2.1.x86_64.rpm
+
 
 
 
