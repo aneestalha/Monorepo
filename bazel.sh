@@ -1,3 +1,22 @@
+SUSE specific
+
+zypper addrepo https://download.opensuse.org/repositories/openSUSE:Leap:15.2/standard/openSUSE:Leap:15.2.repo
+zypper refresh
+zypper install bazel
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 git clone https://github.com/abseil/abseil-cpp.git /src/workspace
 mkdir -p /tmp/build_output/
 
