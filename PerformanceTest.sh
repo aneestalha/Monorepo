@@ -1,6 +1,7 @@
 #!/bin/sh
 
 #git config --local http.postBuffer 157286400
+#git config http.postBuffer 524288000
 
 echo -e " <html> \n <body>" > Report.html
 echo "Performance Test Results for Monorepo Repository " >> Report.html
