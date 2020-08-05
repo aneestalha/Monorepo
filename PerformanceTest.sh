@@ -4,6 +4,7 @@ echo -e " <html> \n <body>" > Report.html
 echo "Performance Test Results for Monorepo Repository " >> Report.html
 time git clone ssh://git@bitbucketperf.fanniemae.com:7999/fnmmr/fanniemaemonorepo.git >> Report.html
 time git clone ssh://git@bitbucketperf.fanniemae.com:7999/bitbucketdcperf/projects/FNMMR/repos/fanniemaemonorepo.git >> Report.html
+cd fanniemaemonorepo;
 echo -e " \n " >> Report.html
 time git status >> Report.html
 echo -e " \n " >> Report.html
