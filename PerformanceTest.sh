@@ -34,7 +34,4 @@ echo -e " \n " >> Report.html
 time git push >> Report.html
 echo -e " \n " >> Report.html
 
-cd ..;
-time rm -rf * >> Report.html
-
 echo -e " </body> \n </html>" >> Report.html
