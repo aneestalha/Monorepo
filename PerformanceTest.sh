@@ -1,5 +1,7 @@
 #!/bin/sh
 
+#git config --local http.postBuffer 157286400
+
 echo -e " <html> \n <body>" > Report.html
 echo "Performance Test Results for Monorepo Repository " >> Report.html
 time git clone ssh://git@bitbucketperf.fanniemae.com:7999/fnmmr/fanniemaemonorepo.git >> Report.html
